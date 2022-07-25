@@ -18,7 +18,7 @@
 		EBC487A21E49073400A9A125 /* PreferencePanes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBC487A11E49073400A9A125 /* PreferencePanes.framework */; };
 		EBC487C01E490FDE00A9A125 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC487BF1E490FDE00A9A125 /* main.swift */; };
 		EBD7C46822ECD25D00297A13 /* ThisAppDoesNothing.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = EBE2B0A01EB4155000BD157C /* ThisAppDoesNothing.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		EBD7C46B22ECD34200297A13 /* swda in CopyFiles */ = {isa = PBXBuildFile; fileRef = EBA6B09F1EB6E6150080A783 /* swda */; };
+		EBD7C46B22ECD34200297A13 /* swda in CopyFiles */ = {isa = PBXBuildFile; fileRef = EBA6B09F1EB6E6150080A783 /* swda */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		EBE2B0991EB409F800BD157C /* Main Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBE2B0981EB409F800BD157C /* Main Assets.xcassets */; };
 		EBF3342D1E9BD68A00520B7B /* SWDAHandlersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF3342C1E9BD68A00520B7B /* SWDAHandlersModel.swift */; };
 		EBF3342F1E9BD91C00520B7B /* ControllersRef.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF3342E1E9BD91C00520B7B /* ControllersRef.swift */; };
@@ -284,7 +284,7 @@
 				KnownAssetTags = (
 					Icon,
 				);
-				LastUpgradeCheck = 1030;
+				LastUpgradeCheck = 1340;
 				ORGANIZATIONNAME = "Gregorio Litenstein Goldzweig";
 				TargetAttributes = {
 					EBD61FD81E47EC3C00549EE8 = {
@@ -430,6 +430,7 @@
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -485,6 +486,7 @@
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -522,10 +524,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 33JDJVTQZT;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "$(SRCROOT)/Resources/Prefpane_Info.plist";
 				INSTALL_PATH = /;
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
@@ -547,10 +549,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 33JDJVTQZT;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "$(SRCROOT)/Resources/Prefpane_Info.plist";
 				INSTALL_PATH = /;
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";

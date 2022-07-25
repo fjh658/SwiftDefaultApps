@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1030"
+   LastUpgradeVersion = "1340"
    version = "1.7">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "EBD61FD81E47EC3C00549EE8"
-               BuildableName = "SwiftDefaultApps.prefPane"
+               BuildableName = "SwiftDefaultApps.prefpane"
                BlueprintName = "SwiftDefaultApps"
                ReferencedContainer = "container:SWDA Prefpane.xcodeproj">
             </BuildableReference>
@@ -37,7 +37,7 @@
                   <BuildableReference
                      BuildableIdentifier = "primary"
                      BlueprintIdentifier = "EBD61FD81E47EC3C00549EE8"
-                     BuildableName = "SwiftDefaultApps.prefPane"
+                     BuildableName = "SwiftDefaultApps.prefpane"
                      BlueprintName = "SwiftDefaultApps"
                      ReferencedContainer = "container:SWDA Prefpane.xcodeproj">
                   </BuildableReference>
@@ -47,17 +47,6 @@
       </PreActions>
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EBD61FD81E47EC3C00549EE8"
-            BuildableName = "SwiftDefaultApps.prefPane"
-            BlueprintName = "SwiftDefaultApps"
-            ReferencedContainer = "container:SwiftDefaultApps/SWDA Prefpane.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -79,7 +68,7 @@
                   <BuildableReference
                      BuildableIdentifier = "primary"
                      BlueprintIdentifier = "EBD61FD81E47EC3C00549EE8"
-                     BuildableName = "SwiftDefaultApps.prefPane"
+                     BuildableName = "SwiftDefaultApps.prefpane"
                      BlueprintName = "SwiftDefaultApps"
                      ReferencedContainer = "container:SWDA Prefpane.xcodeproj">
                   </BuildableReference>
@@ -89,14 +78,13 @@
       </PreActions>
       <PathRunnable
          runnableDebuggingMode = "0"
-         BundleIdentifier = "com.apple.systempreferences"
-         FilePath = "/Applications/System Preferences.app">
+         FilePath = "/System/Applications/System Preferences.app">
       </PathRunnable>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EBD61FD81E47EC3C00549EE8"
-            BuildableName = "SwiftDefaultApps.prefPane"
+            BuildableName = "SwiftDefaultApps.prefpane"
             BlueprintName = "SwiftDefaultApps"
             ReferencedContainer = "container:SWDA Prefpane.xcodeproj">
          </BuildableReference>
@@ -108,8 +96,6 @@
             isEnabled = "YES">
          </EnvironmentVariable>
       </EnvironmentVariables>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Debug"
@@ -127,7 +113,7 @@
                   <BuildableReference
                      BuildableIdentifier = "primary"
                      BlueprintIdentifier = "EBD61FD81E47EC3C00549EE8"
-                     BuildableName = "SwiftDefaultApps.prefPane"
+                     BuildableName = "SwiftDefaultApps.prefpane"
                      BlueprintName = "SwiftDefaultApps"
                      ReferencedContainer = "container:SWDA Prefpane.xcodeproj">
                   </BuildableReference>
@@ -144,7 +130,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EBD61FD81E47EC3C00549EE8"
-            BuildableName = "SwiftDefaultApps.prefPane"
+            BuildableName = "SwiftDefaultApps.prefpane"
             BlueprintName = "SwiftDefaultApps"
             ReferencedContainer = "container:SWDA Prefpane.xcodeproj">
          </BuildableReference>
